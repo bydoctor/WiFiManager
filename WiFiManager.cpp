@@ -376,7 +376,7 @@ void WiFiManager::startWPS() {
   WiFi.beginWPSConfig();
   DEBUG_WM(F("END WPS"));
 }
-/*
+
   String WiFiManager::getSSID() {
   if (_ssid == "") {
     DEBUG_WM(F("Reading SSID"));
@@ -396,7 +396,7 @@ void WiFiManager::startWPS() {
   }
   return _pass;
   }
-*/
+
 String WiFiManager::getConfigPortalSSID() {
   return _apName;
 }
