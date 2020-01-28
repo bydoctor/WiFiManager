@@ -73,6 +73,11 @@ class WiFiManager
   public:
     WiFiManager();
     ~WiFiManager();
+   
+    
+    String        getSSID();
+    String        getPassword();
+
 
     boolean       autoConnect();
     boolean       autoConnect(char const *apName, char const *apPassword = NULL);
